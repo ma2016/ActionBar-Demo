@@ -54,6 +54,8 @@ function Controller() {
         borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
         hintText: "Search",
         color: "#336699",
+        backgroundColor: "white",
+        borderRadius: "3",
         top: "5%",
         left: "10%",
         right: "10%",
