@@ -1,0 +1,1 @@
+module.exports={"dependencies":{"com.alcoapps.drawermenu":"2.0"}};
