@@ -1,5 +1,14 @@
 <Alloy>
 	<Window class="container">
 		<Require type="widget" src="com.alcoapps.drawermenu" id="drawermenu"/>
+		<View id="mapcontainer">
+			 <Module id="mapview" module="ti.map" method="createView">
+		            <!-- Starting with Alloy 1.4.0, use the Annotation tag to define an annotation -->
+		            <!-- Prior to Alloy 1.4.0, create annotations in the controller -->
+		            <Annotation id='appcHQ' myid='1' />
+	       	 </Module>
+	       	 <TextField id="textField" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_ROUNDED" hintText="Search"
+	       	 	color="#336699" top="5%" left="10%" right="10%" width="80%" height="10%" />
+       	 </View>
 	</Window>
 </Alloy>
